@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-studio-bg: #F9F7F5;
+  --color-surface: #FFFFFF;
+  --color-text-main: #2C2C2C;
+  --color-text-muted: #8C8C8C;
+  --color-accent: #D4A59A;
+  --color-accent-hover: #C08E82;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Lato', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #F9F7F5;
+    color: #2C2C2C;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #2C2C2C;
+  }
+}
+
+/* Custom utility & focus styles */
+*:focus-visible {
+  outline: 2px solid #D4A59A;
+  outline-offset: 2px;
+}
+
+/* Hide scrollbar for clean horizontal snap scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

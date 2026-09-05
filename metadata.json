@@ -1,0 +1,6 @@
+{
+  "name": "Loula's Studio",
+  "description": "Natural Skin Results by Dalal. Skincare clinic website with instant pricing, treatment finder, and direct booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
